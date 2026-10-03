@@ -1,7 +1,7 @@
 name: price-check
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "
   workflow_dispatch:
 jobs:
   check:
